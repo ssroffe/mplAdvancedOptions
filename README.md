@@ -12,7 +12,7 @@ The mplAdvancedOptions.py will overwrite the original matplotlib show options.
 
 All the original options are still included in mplAdvancedOptions.
 
-When matplotlib.pyplot.show() is used after plotting, this toolbar will be on the canvas.
+When **matplotlib.pyplot.show()** is used after plotting, this toolbar will be on the canvas.
 
 ![NavigationToolbar](screenshots/toolbarImg.png)
 
