@@ -18,6 +18,8 @@ When matplotlib.pyplot.show() is used after plotting, this toolbar will be on th
 
 The button surrounded by a red box contains axes and line options
 
+## Axes Options 
+
 ![Axes Options](screenshots/axesImg.png)
 
 The new available options on this tab include:
@@ -30,6 +32,8 @@ The new available options on this tab include:
 1. Legend Location - Location to put the legend if (Re-) Generate automatic legend is checked
 1. Legend Draggable - Enable mouse dragging of the legend if enabled
 1. Legend Fontsize - Change fontsize of legend
+
+## Plotted Curve Options
 
 ![Curve Options](screenshots/curveImg.png)
 
