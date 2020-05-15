@@ -44,4 +44,4 @@ New available options on this tab include:
 ## Troubleshooting
 
 * If the configure button doesn't appear, make sure Qt5Agg is being used as the backend.
-If not, add "backend: Qt5Agg" to the matplotlibrc
+ * If not, add "backend: Qt5Agg" to the matplotlibrc
