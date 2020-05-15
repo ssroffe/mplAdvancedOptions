@@ -8,7 +8,7 @@ After importing matplotlib, import mplAdvancedOptions
     import matplotlib.pyplot as plt
     import mplAdvancedOptions
 ```
-The mplAdvancedOptions.py will overwrite the original matplotlib show options. 
+The mplAdvancedOptions.py will overwrite the original matplotlib show options.
 
 All the original options are still included in mplAdvancedOptions.
 
@@ -18,7 +18,7 @@ When **matplotlib.pyplot.show()** is used after plotting, this toolbar will be o
 
 The button surrounded by a red box contains axes and line options
 
-## Axes Options 
+## Axes Options
 
 ![Axes Options](screenshots/axesImg.png)
 
@@ -40,3 +40,8 @@ The new available options on this tab include:
 New available options on this tab include:
 
 1. Visible - Make curve invisible if unchecked
+
+## Troubleshooting
+
+* If the configure button doesn't appear, make sure Qt5Agg is being used as the backend.
+If not, add "backend: Qt5Agg" to the matplotlibrc
